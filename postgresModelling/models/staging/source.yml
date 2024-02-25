@@ -1,0 +1,8 @@
+version: 2
+sources: 
+  - name: sba
+    schema: public
+    tables:
+     - name: SBA_Data
+     - name: SBA_Sector_Description
+     - name: SBA_data_dictionary
