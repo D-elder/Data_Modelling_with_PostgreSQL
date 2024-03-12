@@ -34,4 +34,4 @@ SELECT
     "RuralUrbanIndicator",
     ingestion_timestamp
 FROM unique_source
-WHERE row_number = 1;
+WHERE row_number = 1
