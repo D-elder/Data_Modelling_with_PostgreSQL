@@ -37,3 +37,9 @@ models:
       +enabled: true
       +materialized: table
       +schema: stg_SBA
+    warehouse:
+      +enabled: true
+      +materialized: table
+      +schema: dwh_SBA
+      date:
+        +materialized: view
