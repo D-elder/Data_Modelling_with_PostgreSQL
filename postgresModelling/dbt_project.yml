@@ -43,3 +43,7 @@ models:
       +schema: dwh_SBA
       date:
         +materialized: view
+    obt:
+      +enabled: true
+      +materialized: table
+      +schema: obt
